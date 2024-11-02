@@ -30,3 +30,9 @@ pip-compile requirements.in
 
 REM 3.5 - install the needed packages within the requirements folder
 py -m pip install -r requirements.txt
+
+REM then you gotta install package: jupyter ntoebooks into your instance of python
+pip install notebook
+
+REM then you can open jupyter notebooks by calling "jupyter notebook file_name.ipynb"
+jupyter notebook your_file.ipynb

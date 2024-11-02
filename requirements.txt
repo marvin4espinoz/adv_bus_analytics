@@ -198,3 +198,7 @@ urllib3==2.0.3
     # via requests
 werkzeug==2.3.6
     # via dbt-core
+
+
+#next time also make sure to install:
+#pandas, numpy, scipy, matplotlib, openpyxl, statsmodels
