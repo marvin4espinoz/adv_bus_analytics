@@ -201,4 +201,7 @@ werkzeug==2.3.6
 
 
 #next time also make sure to install:
-#pandas, numpy, scipy, matplotlib, openpyxl, statsmodels
+#pandas, numpy, scipy, matplotlib, openpyxl, statsmodels, powerlaw
+#pip install nbconvert
+#pip install pandoc
+#pip install nbconvert[webpdf]
